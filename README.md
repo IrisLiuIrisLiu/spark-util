@@ -10,8 +10,8 @@
 * spark RDD[T] write to hbase <br>
   RDD[T] -> Put -> Hbase
 * spark RDD[T] update with hbase data  <br>
-  RDD[T] -> Get -> Combine -> RDD[U]
-*　spark RDD[T] update with hbase data then put return to hbase <br>
-  RDD[T] -> Get -> Combine -> Put -> Hbase
+  RDD[T] -> Get -> Combine -> RDD[U] <br>
+* spark RDD[T] update with hbase data then put return to hbase <br>
+  RDD[T] -> Get -> Combine -> Put -> Hbase <br>
 ## Example
 
